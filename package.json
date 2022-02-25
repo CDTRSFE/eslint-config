@@ -1,0 +1,31 @@
+{
+  "name": "@trscd/eslint-config",
+  "version": "0.1.0",
+  "description": "eslint config preset",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "lint": "npx eslint --ext .js,.json,.vue --fix .",
+    "release": "lerna publish --conventional-commits"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDTRSFE/eslint-config.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "zhaoqing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CDTRSFE/eslint-config/issues"
+  },
+  "homepage": "https://github.com/CDTRSFE/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "lerna": "^4.0.0"
+  }
+}

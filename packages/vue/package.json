@@ -1,0 +1,15 @@
+{
+  "name": "@trscd/eslint-config-vue",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "vue"
+  ],
+  "author": "zhaoqing",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  }
+}

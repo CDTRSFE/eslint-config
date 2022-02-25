@@ -1,0 +1,14 @@
+{
+  "name": "@trscd/eslint-config-basic",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "zhaoqing",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  }
+}

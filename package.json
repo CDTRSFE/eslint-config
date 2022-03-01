@@ -1,5 +1,5 @@
 {
-  "name": "@trscd/eslint-config",
+  "name": "@trscd/eslint-config-monorepo",
   "version": "0.1.0",
   "description": "eslint config preset",
   "scripts": {

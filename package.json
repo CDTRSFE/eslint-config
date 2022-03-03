@@ -4,7 +4,7 @@
   "description": "eslint config preset",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "lint": "npx eslint --ext .js,.json,.vue --fix .",
+    "lint": "npx eslint --ext .js,.ts,.vue. demo/",
     "release": "lerna publish --conventional-commits"
   },
   "repository": {
@@ -26,6 +26,7 @@
   "homepage": "https://github.com/CDTRSFE/eslint-config#readme",
   "devDependencies": {
     "eslint": "^8.9.0",
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "typescript": "^4.6.2"
   }
 }

@@ -27,7 +27,7 @@ module.exports = {
         // 最大连续空行数为1，文件末尾和文件开始的最大连续空行数为1和0
         'no-multiple-empty-lines': [2, { max: 1, maxEOF: 0, maxBOF: 0 }],
         // 在花括号中使用一致的空格
-        'object-curly-spacing': [2, 'always', { objectsInObjects: false }],
+        'object-curly-spacing': [2, 'always'],
         // 限制函数块中的语句的最大数量
         'max-statements': [2, { max: 20 }, { ignoreTopLevelFunctions: true }],
         // 如果有属性名称要求使用引号，则所有的属性名称都要使用引号

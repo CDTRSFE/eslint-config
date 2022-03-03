@@ -9,4 +9,4 @@ node_modules/
 dist
 .idea
 *.lerna_backup
-example
+demo

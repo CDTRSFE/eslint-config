@@ -28,7 +28,7 @@ module.exports = {
 
 ### 配置 `.eslintignore`
 
-```json
+```
 public
 dist
 ```

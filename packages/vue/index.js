@@ -2,6 +2,10 @@
 const { defineConfig } = require('eslint-define-config');
 
 module.exports = defineConfig({
+    env: {
+        // https://eslint.vuejs.org/user-guide/#compiler-macros-such-as-defineprops-and-defineemits-generate-no-undef-warnings
+        'vue/setup-compiler-macros': true,
+    },
     extends: [
         'plugin:vue/vue3-recommended',
         '@trscd/ts',
@@ -15,6 +19,9 @@ module.exports = defineConfig({
             },
         },
     ],
+    globals: {
+        axios: 'readonly',
+    },
     rules: {
         // 每行最多的属性个数
         'vue/max-attributes-per-line': ['error', { singleline: 5 }],

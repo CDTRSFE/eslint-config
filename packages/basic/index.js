@@ -11,6 +11,13 @@ module.exports = {
         'plugin:eslint-comments/recommended',
     ],
     plugins: ['unicorn'],
+    settings: {
+        'import/resolver': {
+            node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
+        },
+        // https://github.com/import-js/eslint-plugin-import/blob/v2.25.4/docs/rules/named.md#settings
+        'import/ignore': ['node_modules'],
+    },
     rules: {
         'no-console': 1,
         'no-debugger': 1,

@@ -53,7 +53,7 @@ module.exports = {
         // 使用模板字面量而非字符串拼接
         'prefer-template': 'error',
         // 箭头函数参数在可以省略括号的地方不使用括号
-        'arrow-parens': ['error', 'as-needed', { requireForBlockBody: true }],
+        'arrow-parens': ['error', 'as-needed'],
         // 变量的使用限制在其定义的作用域范围内
         'block-scoped-var': 'error',
         // 不建议使用 alert、confirm 和 prompt

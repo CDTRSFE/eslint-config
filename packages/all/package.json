@@ -1,6 +1,6 @@
 {
   "name": "@trscd/eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "keywords": [
     "eslint",
@@ -14,7 +14,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@trscd/eslint-config-vue": "^0.1.1"
+    "@trscd/eslint-config-vue": "^0.1.2"
   },
   "devDependencies": {
     "eslint": "^8.9.0"

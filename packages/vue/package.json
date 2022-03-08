@@ -1,6 +1,6 @@
 {
   "name": "@trscd/eslint-config-vue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "keywords": [
@@ -22,7 +22,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@trscd/eslint-config-ts": "^0.1.1",
+    "@trscd/eslint-config-ts": "^0.1.2",
     "eslint-define-config": "^1.2.5",
     "eslint-plugin-vue": "^8.5.0"
   }

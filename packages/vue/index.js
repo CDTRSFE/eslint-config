@@ -43,5 +43,6 @@ module.exports = defineConfig({
         'vue/no-v-html': 'off',
         // 定义 vue 中 html 缩进
         'vue/html-indent': ['error', 4],
+        'vue/multi-word-component-names': 'off',
     },
 });

@@ -36,10 +36,11 @@ module.exports = defineConfig({
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off',
-        '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'semi' }}],
+        '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'semi' } }],
         '@typescript-eslint/type-annotation-spacing': 'error',
         '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
         '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
         '@typescript-eslint/prefer-ts-expect-error': 'error',
+        '@typescript-eslint/no-empty-function': 'off',
     },
 });
